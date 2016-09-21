@@ -1,5 +1,10 @@
 package nl.jqno.equalsverifier;
 
+import lombok.NonNull;
+import lombok.Value;
+
+@Value
 public class MyClass {
-    // Fill in the class that produces your issue here
+    @NonNull
+    private final String something;
 }
